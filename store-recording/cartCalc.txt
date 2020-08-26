@@ -1,0 +1,34 @@
+-dans le state on initialise: 
+	cartSubTotal: 0,
+        cartTax: 0,
+        cartTotal: 0
+-créer toutes les methodes d'incrementation, decrementation, removeItem, clearCart
+-puis on déclare cela dans value de productContext.provider
+-on crée un folder cart et on met le fichier cart.js à l'interieur.
+-dans cart.js on importe le title component et on lui passe les props name et title
+-on crée cartColumns.js dans lequel on met une function
+<div className="container-fluid text-center d-none d-lg-block">
+            <div className="row">
+                <div className="col-10 mx-auto col-lg-2">
+                    <p className="text-uppercase">products</p>
+                </div>
+                <div className="col-10 mx-auto col-lg-2">
+                    <p className="text-uppercase">name of product</p>
+                </div>
+                <div className="col-10 mx-auto col-lg-2">
+                    <p className="text-uppercase">price</p>
+                </div>
+                <div className="col-10 mx-auto col-lg-2">
+                    <p className="text-uppercase">quantity</p>
+                </div>
+                <div className="col-10 mx-auto col-lg-2">
+                    <p className="text-uppercase">remove</p>
+                </div>
+                <div className="col-10 mx-auto col-lg-2">
+                    <p className="text-uppercase">total</p>
+                </div>
+            </div>
+        </div>
+
+-puis on import ça dans cart.js
+-on crée un fichier emptyCart.js qui rendra function EmptyCart 
